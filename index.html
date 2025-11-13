@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zoho - Your life's work, powered by our life's work</title>
+  <meta name="description" content="A unique and powerful software suite to transform the way you work" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    referrerpolicy="no-referrer"></script>
+  <script defer src="./app.js"></script>
+</head>
+
+<body class="has-bg-video">
+  <div class="bg-video">
+    <video class="bg-video__media" autoplay muted loop playsinline preload="auto">
+      <source src="assats/WhatsApp Video 2025-11-13 at 09.38.28_33098361.mp4" type="video/mp4" />
+    </video>
+  </div>
+  <header class="site-header">
+    <div class="container">
+      <a href="#home" class="brand" aria-label="Zoho Home">
+        <img class="brand-logo" src="Assests/zohoImage.svg" alt="Zoho" />
+      </a>
+      <nav class="nav">
+        <a href="#home"><i class="ri-home-4-fill"></i>Home</a>
+        <a href="#products"><i class="ri-apps-fill"></i>Products</a>
+        <a href="#customers"><i class="ri-user-3-fill"></i>Customers</a>
+        <a href="#resources"><i class="ri-book-2-fill"></i>Resources</a>
+        <a href="#story"><i class="ri-movie-2-fill"></i>Story</a>
+        <a class="btn btn--signin" href="#signin">Sign In</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-left">
+          <h1 class="hero-title">Your life's work,<br>powered by our life's work.</h1>
+          <div class="hero-accent-line"></div>
+          <p class="hero-subtitle">
+            A unique and powerful software suite to transform the way you work. Designed for businesses of all sizes, built by a company that values your privacy.
+          </p>
+          <a class="btn btn--primary btn--lg" href="#story">
+            GET STARTED FOR FREE
+            <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hero Image Section -->
+    <section class="hero-image-section">
+      <div class="container">
+        <div class="hero-image-wrapper">
+          <img src="Assests/zh-homev2-banner-india-3.webp" alt="Team collaboration illustration" class="hero-image" />
+        </div>
+        <div class="hero-image-overlay">
+          <img src="Assests/1705654946241.jpg" alt="Sridhar Vembu portrait">
+        </div>
+        <div class="hero-image-info">
+          <h2 class="hero-info-title">Designed in India, Built for the World</h2>
+          <p class="hero-info-text">
+            Zoho’s founder <strong>Sridhar Vembu</strong> leads with a simple belief: powerful software should be accessible,
+            locally built, and globally impactful. From rural Tamil Nadu to millions of businesses worldwide, Zoho empowers
+            teams to collaborate, innovate, and grow without compromise.
+          </p>
+          <ul class="hero-info-list">
+            <li><i class="ri-rocket-line"></i> 55+ products covering every business function</li>
+            <li><i class="ri-community-line"></i> 150+ countries served and growing</li>
+            <li><i class="ri-shield-check-line"></i> Privacy-first philosophy with zero ads</li>
+          </ul>
+          <a class="btn btn--primary" href="#core-values">Discover our vision</a>
+        </div>
+      </div>
+    </section>
+
+    Story Section
+    <section id="story" class="story-hero">
+      <div class="container">
+        <div class="video-card">
+          <div class="video-text">
+            <div class="video-kicker">To build anything that truly lasts,</div>
+            <h1 class="video-title">it takes time</h1>
+            <a class="btn btn--link" href="#read">Read the story</a>
+          </div>
+          <div class="video-media">
+            <video class="video-el" preload="metadata">
+              <source src="assats/video1.mp4" type="video/mp4" />
+            </video>
+            <button class="video-overlay js-video-play" aria-label="Watch video">
+              <i class="ri-play-fill"></i>
+              <span>Watch video</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Yellow info + quote -->
+    <section class="yellow-section">
+      <div class="container">
+        <div class="yellow-grid">
+          <div class="suite">
+            <div class="suite-kicker">All-in-one suite</div>
+            <h2 class="suite-title">Zoho One</h2>
+            <div class="suite-sub">The operating system for business</div>
+            <p class="suite-desc">Run your entire business on Zoho with our unified cloud software, designed to help you
+              break down silos between departments and increase organizational efficiency.</p>
+            <a class="btn btn--primary btn--lg" href="#try">Try Zoho One</a>
+          </div>
+          <aside class="quote-card">
+            <div class="quote-mark">"</div>
+            <blockquote class="quote-text">You can be a startup, mid-sized company, or an enterprise—Zoho One is a boon
+              for all.</blockquote>
+            <div class="quote-author">
+              <img class="quote-avatar" src="https://i.pravatar.cc/64?img=12" alt="Author" />
+              <div class="quote-meta">
+                <div class="quote-name">Prakarsh Gagdani</div>
+                <div class="quote-role">CEO, 5paisa.com</div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brands strip -->
+    <section id="customers" class="brands">
+      <div class="container">
+        <div class="brands-head">
+          <span>BRANDS THAT TRUST US</span>
+          <div class="brands-underline"></div>
+        </div>
+        <div class="logo-row">
+          <img src="Assests/iifl.svg" alt="IIFL" class="logo" />
+          <img src="Assests/spicejet.svg" alt="SpiceJet" class="logo" />
+          <img src="Assests/loreal.svg" alt="L'Oreal" class="logo" />
+          <img src="Assests/amazon.svg" alt="Amazon" class="logo" />
+          <img src="Assests/tata-play.svg" alt="Tata Play" class="logo" />
+          <img src="Assests/zomato.png" alt="Zomato" class="logo" />
+          <img src="Assests/max-life-insurance.svg" alt="Max Life" class="logo" />
+        </div>
+        <a class="brands-cta" href="#stories">CUSTOMER STORIES <i class="ri-arrow-right-s-line"></i></a>
+      </div>
+    </section>
+
+    <!-- Blue metrics section -->
+    <section class="blue-section">
+      <div class="container">
+        <div class="blue-wrap">
+          <div class="metrics">
+            <div class="metric">
+              <div class="metric-num"><span class="counter" data-target="130" data-suffix="M+">0</span></div>
+              <div class="metric-label">Users Globally</div>
+            </div>
+            <div class="metric">
+              <div class="metric-num"><span class="counter" data-target="18" data-suffix="K+">0</span></div>
+              <div class="metric-label">Employees Worldwide</div>
+            </div>
+            <div class="metric">
+              <div class="metric-num"><span class="counter" data-target="55" data-suffix="+">0</span></div>
+              <div class="metric-label">Products</div>
+            </div>
+            <div class="metric">
+              <div class="metric-num"><span class="counter" data-target="150" data-suffix="+">0</span></div>
+              <div class="metric-label">Countries Served</div>
+            </div>
+            <div class="metric">
+              <div class="metric-num"><span class="counter" data-target="29" data-suffix="+">0</span></div>
+              <div class="metric-label">Years in Business</div>
+            </div>
+            <a class="btn btn--ghost" href="#about">More about Zoho</a>
+          </div>
+          <div class="blue-art" aria-hidden="true">
+            <svg viewBox="0 0 600 360" class="blue-svg" preserveAspectRatio="xMidYMid meet">
+              <g fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.2">
+                <path d="M20,330 C140,300 200,320 320,300" />
+                <path d="M40,310 C160,280 260,300 380,280" />
+                <path d="M80,290 C220,260 320,280 460,260" />
+                <path d="M120,270 C240,240 360,260 520,240" />
+                <path d="M200,260 L240,220 L260,260 Z" />
+                <circle cx="520" cy="240" r="4" />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Event banner + values card -->
+    <section class="event-hero">
+      <div class="container">
+        <div class="event-cover">
+          <img src="Assests/core-value-banner-img-in.jpg" alt="Zoholics India 2025" class="event-image" />
+          <div class="event-content">
+            <div class="event-title">
+              <span class="event-letter" style="color: #2ea043;">Z</span>
+              <span class="event-letter" style="color: #ff6b35;">O</span>
+              <span class="event-letter" style="color: #1e88e5;">H</span>
+              <span class="event-letter" style="color: #e53935;">O</span>
+              <span class="event-letter" style="color: #2ea043;">L</span>
+              <span class="event-letter" style="color: #f4b400;">I</span>
+              <span class="event-letter" style="color: #1e88e5;">C</span>
+              <span class="event-letter" style="color: #e53935;">S</span>
+            </div>
+            <div class="event-subtitle">INDIA 2025</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Core Values Section -->
+    <section class="core-values">
+      <div class="container">
+        <div class="values-grid">
+          <div class="value-item">
+            <div class="value-icon value-icon--handshake">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 38 L18 28 C18 22 22 18 28 18 L32 18" stroke="#000" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+                <path d="M46 38 L46 28 C46 22 42 18 36 18 L32 18" stroke="#000" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+                <path d="M18 38 L24 44 L32 36 L40 44 L46 38" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <path d="M24 44 L32 36 L40 44" stroke="#e53935" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <path d="M18 38 L24 44" stroke="#e53935" stroke-width="3" stroke-linecap="round" fill="none"/>
+                <path d="M40 44 L46 38" stroke="#e53935" stroke-width="3" stroke-linecap="round" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="value-title">Long-term commitment</h3>
+            <p class="value-desc">29+ years of running a profitable organization gives us a good sense of challenges that a growing business faces. We take pride in running a sustainable business that's powered by you, our customer.</p>
+          </div>
+          
+          <div class="value-item">
+            <div class="value-icon value-icon--target">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="32" cy="32" r="22" stroke="#000" stroke-width="2" fill="none"/>
+                <circle cx="32" cy="32" r="16" stroke="#000" stroke-width="2" fill="none"/>
+                <circle cx="32" cy="32" r="10" stroke="#000" stroke-width="2" fill="none"/>
+                <circle cx="32" cy="32" r="4" fill="#1e88e5"/>
+                <path d="M32 8 L32 20" stroke="#1e88e5" stroke-width="3" stroke-linecap="round"/>
+                <path d="M32 44 L32 56" stroke="#1e88e5" stroke-width="3" stroke-linecap="round"/>
+                <path d="M8 32 L20 32" stroke="#1e88e5" stroke-width="3" stroke-linecap="round"/>
+                <path d="M44 32 L56 32" stroke="#1e88e5" stroke-width="3" stroke-linecap="round"/>
+                <path d="M20 20 L26 26" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+                <path d="M44 20 L38 26" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+                <path d="M20 44 L26 38" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+                <path d="M44 44 L38 38" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="value-title">Focus on research and development</h3>
+            <p class="value-desc">Software is our craft and we back it up with our relentless investments in R&D. So much so that we prefer to own the entire technology stack, including running our data centers globally.</p>
+          </div>
+          
+          <div class="value-item">
+            <div class="value-icon value-icon--customer">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M32 12 L20 24 L24 24 L24 36 L40 36 L40 24 L44 24 Z" fill="#f4b400"/>
+                <path d="M32 12 L20 24 L24 24 L24 36 L40 36 L40 24 L44 24 Z" stroke="#000" stroke-width="2" stroke-linejoin="round" fill="none"/>
+                <circle cx="24" cy="48" r="5" stroke="#000" stroke-width="2" fill="none"/>
+                <circle cx="40" cy="48" r="5" stroke="#000" stroke-width="2" fill="none"/>
+                <path d="M24 53 L40 53" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="24" cy="48" r="2" fill="#000"/>
+                <circle cx="40" cy="48" r="2" fill="#000"/>
+              </svg>
+            </div>
+            <h3 class="value-title">Customer-first philosophy</h3>
+            <p class="value-desc">In all these years, it's our customers' trust and goodwill that has helped us establish a strong position in the market. No matter the size of your business, we're here to help you grow.</p>
+          </div>
+        </div>
+        <div class="values-cta">
+          <a href="#story" class="btn btn--primary btn--lg">
+            READ OUR STORY
+            <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3 class="footer-brand-name">Zoho</h3>
+          <p class="footer-brand-tag">Run your business, your way.</p>
+          <div class="socials">
+            <a href="#" class="social" aria-label="Twitter"><i class="ri-twitter-fill"></i></a>
+            <a href="#" class="social" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+            <a href="#" class="social" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
+            <a href="#" class="social" aria-label="LinkedIn"><i class="ri-linkedin-box-fill"></i></a>
+          </div>
+        </div>
+        <div class="footer-grid">
+          <div class="footer-col">
+            <div class="footer-title">Products</div>
+            <ul class="footer-links">
+              <li><a href="#">CRM</a></li>
+              <li><a href="#">Mail</a></li>
+              <li><a href="#">Books</a></li>
+              <li><a href="#">People</a></li>
+              <li><a href="#">Desk</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <div class="footer-title">Resources</div>
+            <ul class="footer-links">
+              <li><a href="#">Docs</a></li>
+              <li><a href="#">Guides</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Community</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <div class="footer-title">Company</div>
+            <ul class="footer-links">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <div class="footer-title">Support</div>
+            <ul class="footer-links">
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Status</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <div class="foot-left">© <span id="y"></span> Zoho</div>
+        <div class="foot-right">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
